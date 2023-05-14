@@ -1,8 +1,9 @@
-#Last update: May 14, 2023: adapt to CIRES job interview 
+#Last update: May 14, 2023: adapt for CIRES job interview 
 #             January 12, 2023: Use corrected velocity to automatically find legs
 #             December 20, 2022: add MaskCoPol
 #             October 19, 2022: add scaledown to scale down airborne data to spaceborne
 #             August 17, 2022: 
+#Author: Mei Han
 def read(filename=''):
     """
     Read and calcualte the altitude for each bin of each vertical profile.
